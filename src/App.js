@@ -1,4 +1,6 @@
+import {Route, Switch} from 'react-router-dom'
 import './App.css'
+import HomePage from './components/HomePage'
 
 const statesList = [
   {
@@ -147,6 +149,10 @@ const statesList = [
   },
 ]
 
-const App = () => <div>Hello World</div>
+const App = () => (
+  <Switch>
+    <Route exact path="/" component={HomePage} />
+  </Switch>
+)
 
 export default App

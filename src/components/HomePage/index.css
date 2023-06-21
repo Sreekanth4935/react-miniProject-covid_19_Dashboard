@@ -1,0 +1,19 @@
+.covid-bg {
+  background: #161625;
+  min-height: 100vh;
+}
+.second-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.covid-details-container {
+  width: 80%;
+  text-align: center;
+}
+.input-search {
+  width: 70%;
+  margin-top: 50px;
+  padding: 20px;
+}
