@@ -40,7 +40,6 @@ class HomePage extends Component {
             </div>
           </div>
         </div>
-
         <div className="covid-active-container">
           <div className="covid-active-details">
             <div
